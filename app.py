@@ -52,7 +52,7 @@ def landing_page():
         <head>
             <title>Test</title>
         </head>
-        <body style="background-image: url('{{'static', filename='static/wq_media_wallpaper_1.jpg')}}')">
+        <body style="background-image: url('{{ url_for('static', filename='wq_media_wallpaper_1.jpg') }}')">
             <header style="text-align: center;">
                 <h1>Destiny 2 is a great game</h1>
                 <p>Can't wait for the next DLC!</p>
